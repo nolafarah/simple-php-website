@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 16, 2023 at 03:48 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.6
+-- Generation Time: Jul 26, 2023 at 07:13 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `produk`
 --
-CREATE DATABASE IF NOT EXISTS `produk` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `produk`;
 
 -- --------------------------------------------------------
 
@@ -165,10 +163,10 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `full_name`, `user_name`, `password`, `status`) VALUES
-(1, 'Prabowo Subianto', '8fc9ea4323c75d30cd28d1ca854d56d8', '6015b2e126eae6381116160b1b3c44df', 'administrator'),
-(2, 'Ganjar Pranowo', 'e024d4cbfc84af056636ef4c1ccfd506', '14d6ddc9564c11f5679e4f433401958b', 'employee'),
-(3, 'Anies Baswedan', 'afbb9230caede76c1109ba7f41d113b8', '7257a31e3d8b9105023bcbc9375d25ea', 'employee'),
-(4, 'Joko Widodo', '9ba0009aa81e794e628a04b51eaf7d7f', 'aab2cb014452e2cf1491600a9490bf26', 'customer'),
+(1, 'Diana', '3a23bb515e06d0e944ff916e79a7775c', '3a23bb515e06d0e944ff916e79a7775c', 'administrator'),
+(2, 'Nola', 'f3d38a9b3c520cdf02917bb3ffd3405b', 'f3d38a9b3c520cdf02917bb3ffd3405b', 'employee'),
+(3, 'Aurora', '99c8ef576f385bc322564d5694df6fc2', '99c8ef576f385bc322564d5694df6fc2', 'employee'),
+(4, 'Fulan', '59ee8bd9e54c300ed35f1ead57cfdcf0', '59ee8bd9e54c300ed35f1ead57cfdcf0', 'customer'),
 (5, 'a', '0cc175b9c0f1b6a831c399e269772661', '0cc175b9c0f1b6a831c399e269772661', 'customer'),
 (6, 'b', '92eb5ffee6ae2fec3ad71c777531578f', '92eb5ffee6ae2fec3ad71c777531578f', 'customer'),
 (7, 'c', '4a8a08f09d37b73795649038408b5f33', '4a8a08f09d37b73795649038408b5f33', 'customer');
